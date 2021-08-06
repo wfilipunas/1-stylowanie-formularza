@@ -1,8 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 form {
     background-color: #213b50;
     color: #fff;
     padding: 20px;
-    width: 30%;
+    width: 350px;
+    font-family: Arial, sans-serif;
 }
 
 input,
@@ -45,10 +53,15 @@ input[type="submit"] {
     padding: 10px 20px;
     font-weight: 700;
     text-transform: uppercase;
-    
+    display: block;
+    margin: 10px auto 5px;
 }
 
 input[type="submit"]:hover {
     cursor: pointer;
     background-color: #46e881;
+}
+
+p {
+    margin: 0 0 5px;
 }
